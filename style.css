@@ -1,0 +1,34 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+ display: flex; 
+ align-items: center;  
+ background-color: #1F2937;
+ justify-content: space-between;
+ padding: 8px 60px
+ 
+}
+a, a:visited{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.logo{
+    flex: flex 1;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
