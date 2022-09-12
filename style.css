@@ -38,6 +38,7 @@ ul{
     border: #1265da;
     padding: 40px 100px;
     justify-content: space-between;
+    align-items: center;
 
 
 }
@@ -45,6 +46,7 @@ ul{
 .intro-img{
     width:400px;
     height:auto;
+    flex: 1;
 }
 
 .title-content{
@@ -52,6 +54,7 @@ ul{
     font-weight: 700px;
     font-size: 48px;
     color: #F9FAF8;
+    flex: 1;
 
 }
 
@@ -63,5 +66,6 @@ ul{
     color: #F9FAF8;
     padding: 10px 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px;   
 }
+
