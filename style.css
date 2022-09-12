@@ -11,11 +11,11 @@ body{
  padding: 8px 100px
  
 }
-a, a:visited, .title-text{
+a, a:visited, .title-text, .box-container{
     text-decoration: none;
     color: #E5E7EB;
     font-family:'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
 }
 ul{
@@ -29,7 +29,7 @@ ul{
     color: #F9FAF8;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .intro{
@@ -39,7 +39,8 @@ ul{
     padding: 40px 100px;
     justify-content: space-between;
     align-items: center;
-
+    gap: 15px;
+    margin-bottom: 40px;
 
 }
 
@@ -51,11 +52,10 @@ ul{
 
 .title-content{
     font-family:'Roboto', sans-serif;
-    font-weight: 700px;
+    font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
     flex: 1;
-
 }
 
 .title-button{
@@ -69,3 +69,25 @@ ul{
     margin-top: 10px;   
 }
 
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-title{
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-border{
+    border: 7px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
