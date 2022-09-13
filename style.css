@@ -3,15 +3,17 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.header{
+.header, .footer{
  display: flex; 
  align-items: center;  
  background-color: #1F2937;
- justify-content: space-between;
  padding: 8px 100px
- 
 }
-a, a:visited, .title-text, .box-container, .third-text{
+.header{
+    justify-content: space-between;
+}
+
+a, a:visited, .title-text, .box-container, .third-text,.footer{
     text-decoration: none;
     color: #E5E7EB;
     font-family:'Roboto', sans-serif;
@@ -163,5 +165,9 @@ ul{
     border-radius: 16px;
     border-color: #F9FAF8;
     border-style: solid;
+}
 
+.footer{
+    justify-content: center;
+    padding: 20px 0;
 }
