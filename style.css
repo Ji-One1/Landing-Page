@@ -11,7 +11,7 @@ body{
  padding: 8px 100px
  
 }
-a, a:visited, .title-text, .box-container{
+a, a:visited, .title-text, .box-container, .third-text{
     text-decoration: none;
     color: #E5E7EB;
     font-family:'Roboto', sans-serif;
@@ -25,7 +25,10 @@ ul{
 }
 
 .logo{
-    flex: flex auto;
+    flex: auto
+}
+.logo, .third-content{
+
     color: #F9FAF8;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
@@ -122,4 +125,43 @@ ul{
     width: 1155px;
     display: flex;
     flex-direction: column;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 150px;
+}
+.third-container{
+    background-color: #3882F6;
+    width: 900px;
+    height: 180px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding:0 80px;
+    gap: 20px;
+
+}
+
+.third-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+
+
+}
+.third-button{
+    align-self: center;
+    background-color: #3882F6;
+    font-family:'Roboto', sans-serif;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 16px;
+    border-color: #F9FAF8;
+    border-style: solid;
+
 }
